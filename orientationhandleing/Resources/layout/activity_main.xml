@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN PAGE"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Preserved State"
+         android:layout_margin="15dp"
+        android:textColor="#000000"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/colorAccent"
+        android:background="#ffffff"/>
+
+</LinearLayout>
